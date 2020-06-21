@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="136.221" tests="9" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\sreen\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sreen\eclipse-workspace\demoqa\target\test-classes;C:\Users\sreen\eclipse-workspace\demoqa\target\classes;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Users\sreen\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sreen\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sreen\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sreen\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sreen\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sreen\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sreen\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sreen\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sreen\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sreen\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sreen\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\sreen\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\sreen\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\sreen\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sreen\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\sreen\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\sreen\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\sreen\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\sreen\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sreen\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\sreen\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\sreen\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\sreen\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\sreen\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\sreen\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\sreen\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sreen\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\sreen\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\sreen\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\sreen\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\sreen\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin"/>
+    <property name="sun.java.command" value="C:\Users\sreen\AppData\Local\Temp\surefire7066815115533103800\surefirebooter918648753522573749.jar C:\Users\sreen\AppData\Local\Temp\surefire7066815115533103800 2020-06-21T11-50-26_689-jvmRun1 surefire6299655848282602617tmp surefire_07116948193621874185tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\sreen\eclipse-workspace\demoqa\target\test-classes;C:\Users\sreen\eclipse-workspace\demoqa\target\classes;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Users\sreen\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Users\sreen\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sreen\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sreen\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sreen\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sreen\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sreen\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sreen\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sreen\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sreen\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sreen\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sreen\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\sreen\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\sreen\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\sreen\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sreen\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\sreen\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\sreen\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\sreen\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\sreen\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sreen\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\sreen\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\sreen\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\sreen\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\sreen\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\sreen\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\sreen\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sreen\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sreen\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\sreen\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\sreen\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\sreen\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\sreen\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sreen"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_151"/>
+    <property name="basedir" value="C:\Users\sreen\eclipse-workspace\demoqa"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sreen\AppData\Local\Temp\surefire7066815115533103800\surefirebooter918648753522573749.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="Parthiv"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sreen\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sreen\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="C:\Users\sreen\eclipse-workspace\demoqa"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\sreen\Anaconda3;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\sreen\Anaconda3\Scripts;F:\Sreenivas\Software\SeleniumSoftware;F:\Sreenivas\Software\MavenSoftware\apache-maven-3.6.3\bin;C:\Users\sreen\AppData\Local\Android\Sdk\tools\bin;C:\Users\sreen\AppData\Local\Android\Sdk\tools;C:\Users\sreen\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\sreen\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\sreen\AppData\Roaming\npm;C:\Users\sreen\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="checkImage" classname="com.demoqa.testpages.LoginPageTest" time="0.418">
+    <system-out><![CDATA[Web Browser is :: Chrome
+Web Browser is :: Chrome
+Web Browser is :: Chrome
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34509
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2020 11:50:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 44475
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2020 11:50:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 35346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2020 11:51:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="getLoginPageTitle" classname="com.demoqa.testpages.LoginPageTest" time="0.005">
+    <system-out><![CDATA[Rahul Shetty Academy
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLogin" classname="com.demoqa.testpages.LoginPageTest" time="1.962"/>
+  <testcase name="verifyHomePageTitle" classname="com.demoqa.testpages.HomePageTest" time="0.017">
+    <system-out><![CDATA[homepage Title is ::Rahul Shetty Academy
+]]></system-out>
+  </testcase>
+  <testcase name="checkJoinNowBTN" classname="com.demoqa.testpages.HomePageTest" time="0.104"/>
+  <testcase name="clickLoginBtn" classname="com.demoqa.testpages.HomePageTest" time="8.181"/>
+  <testcase name="checkMyCourses" classname="com.demoqa.testpages.LandingPageTest" time="15.135">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;My Courses&apos;)]&quot;}&#10;  (Session info: chrome=83.0.4103.106)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-67M1RKGT&apos;, ip: &apos;192.168.146.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sreen\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f59ac02b94453110dd6dd01619992ff3&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;My Courses&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'My Courses')]"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-67M1RKGT', ip: '192.168.146.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sreen\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f59ac02b94453110dd6dd01619992ff3
+*** Element info: {Using=xpath, value=//a[contains(text(),'My Courses')]}
+	at com.demoqa.testpages.LandingPageTest.checkMyCourses(LandingPageTest.java:51)
+]]></failure>
+  </testcase>
+  <testcase name="verifyCurrentUser" classname="com.demoqa.testpages.LandingPageTest" time="15.044">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;navbar-current-user&apos; and text()=&apos;Sreenivas B&apos;]&quot;}&#10;  (Session info: chrome=83.0.4103.106)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-67M1RKGT&apos;, ip: &apos;192.168.146.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sreen\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f59ac02b94453110dd6dd01619992ff3&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;navbar-current-user&apos; and text()=&apos;Sreenivas B&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='navbar-current-user' and text()='Sreenivas B']"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-67M1RKGT', ip: '192.168.146.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sreen\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f59ac02b94453110dd6dd01619992ff3
+*** Element info: {Using=xpath, value=//span[@class='navbar-current-user' and text()='Sreenivas B']}
+	at com.demoqa.testpages.LandingPageTest.verifyCurrentUser(LandingPageTest.java:39)
+]]></failure>
+  </testcase>
+  <testcase name="verifySearchBox" classname="com.demoqa.testpages.LandingPageTest" time="15.03">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search\-courses&quot;}&#10;  (Session info: chrome=83.0.4103.106)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LAPTOP-67M1RKGT&apos;, ip: &apos;192.168.146.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sreen\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f59ac02b94453110dd6dd01619992ff3&#10;*** Element info: {Using=id, value=search-courses}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search\-courses"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-67M1RKGT', ip: '192.168.146.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sreen\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f59ac02b94453110dd6dd01619992ff3
+*** Element info: {Using=id, value=search-courses}
+	at com.demoqa.testpages.LandingPageTest.verifySearchBox(LandingPageTest.java:46)
+]]></failure>
+  </testcase>
+</testsuite>

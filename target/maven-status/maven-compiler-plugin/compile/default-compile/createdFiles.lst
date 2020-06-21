@@ -1,0 +1,6 @@
+com\demoqa\pages\LandingPage.class
+com\demoqa\base\BasePage.class
+com\demoqa\pages\HomePage.class
+com\demoqa\pages\LoginPage.class
+com\demoqa\practice\submitform.class
+com\demoqa\utils\Constants.class
